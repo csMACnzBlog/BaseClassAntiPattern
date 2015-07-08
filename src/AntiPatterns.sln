@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseClassProblem.ServiceLocation", "BaseClassProblem.ServiceLocation\BaseClassProblem.ServiceLocation.csproj", "{2566E74E-53E9-4FFE-8228-BD6978598A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseClassProblem.BusinessLayer", "BaseClassProblem.BusinessLayer\BaseClassProblem.BusinessLayer.csproj", "{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseClassProblem.BaseInjection", "BaseClassProblem.BaseInjection\BaseClassProblem.BaseInjection.csproj", "{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B6884A4A-5F66-4144-9344-9978089322BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. The antipattern", "1. The antipattern", "{FEAEC09A-B437-4F8E-8A7B-CE17998F9AE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. (Incorrect) Solution 1", "2. (Incorrect) Solution 1", "{82F381C4-0281-4F9A-9AA4-B97399688142}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. The way things should have been", "3. The way things should have been", "{EAF22990-B81B-4BF3-9374-98E3B4A0CA44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Reality", "4. Reality", "{E34F4267-68FE-4D47-8DC9-57C586A4EFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseClassProblem.RightWay", "BaseClassProblem.RightWay\BaseClassProblem.RightWay.csproj", "{D47355FA-5EE2-4512-8E0A-180E88235E39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2566E74E-53E9-4FFE-8228-BD6978598A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2566E74E-53E9-4FFE-8228-BD6978598A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2566E74E-53E9-4FFE-8228-BD6978598A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2566E74E-53E9-4FFE-8228-BD6978598A35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D47355FA-5EE2-4512-8E0A-180E88235E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D47355FA-5EE2-4512-8E0A-180E88235E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D47355FA-5EE2-4512-8E0A-180E88235E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D47355FA-5EE2-4512-8E0A-180E88235E39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2566E74E-53E9-4FFE-8228-BD6978598A35} = {FEAEC09A-B437-4F8E-8A7B-CE17998F9AE0}
+		{5E9DDCE9-DBB5-442F-A347-2614EEF78ABB} = {B6884A4A-5F66-4144-9344-9978089322BB}
+		{8612BD48-C17F-4FC6-A4AA-FA27364E1FB1} = {82F381C4-0281-4F9A-9AA4-B97399688142}
+		{D47355FA-5EE2-4512-8E0A-180E88235E39} = {EAF22990-B81B-4BF3-9374-98E3B4A0CA44}
+	EndGlobalSection
+EndGlobal
